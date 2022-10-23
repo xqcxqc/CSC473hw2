@@ -11,7 +11,7 @@ for (var button of btns) {
             try {
                 lnConverter()
                 var result = math.evaluate(screen.value);
-                math.format(result, { precision: 14 })  //round off
+                math.format(result, { precision: 10 })  //round off
                 answer.value = result;
                 screen.value = ''
             } catch (error) {
