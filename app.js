@@ -35,6 +35,9 @@ function assignValue(text) {
         case 'x':
             return '*'
             break;
+        case '+':
+            return '+'
+            break;
         case '−':
             return '-'
             break;
